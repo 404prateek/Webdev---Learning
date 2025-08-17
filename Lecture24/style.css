@@ -1,0 +1,107 @@
+        .logo img {
+            width: 150px;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 40px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .right ul {
+            display: flex;
+            list-style: none;
+            gap: 20px 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .first{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            gap: 23px;
+            margin: 70px;
+        }
+
+        .first span{
+            font-size: 30px;
+        }
+
+        main span img{
+            width: 82px;
+            margin: 0 23px;
+        }
+
+        .first p{
+            font-size: 24px;
+            width: 68vw;
+            text-align: center;
+        }
+
+        .first button{
+            padding: 10px 15px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            font-weight: 700;
+            background-color: #65caf6;
+        }
+
+        
+        footer {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .container {
+            width: 80vw;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 30px;
+        }
+
+        .box {
+            border: 2px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+
+        .box h3 {
+            margin: 10px 0 5px;
+        }
+
+        .box p {
+            margin: 5px 0 15px;
+            color: gray;
+        }
+
+        .buttons button {
+            padding: 10px 15px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn-blue {
+            background-color: #0ebeff;
+        }
+
+        .btn-green {
+            background-color: green;
+        }

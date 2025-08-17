@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Challenge</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: gray;
+            padding: 20px;
+        }
+        .card{
+            background-color: white;
+            width: 300px;
+            height: 460px;
+            margin: 39px;
+            border-radius: 11px;
+        }
+        .image{
+          padding: 7px;
+            
+        }
+        .image img{
+            border-radius: 11px;
+            width: 285px;
+        }
+        .capsules{
+            padding:0 14px;                    /*padding coulde be like : 0 1px 0 4px (top,bottom,left right)*/
+        }
+        .capsules span{
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 3px 13px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: small;
+        }
+        h1{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            padding: 11px;  
+            font-size: 30px;
+        }
+        .content{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 11px;
+            color: gray;
+            font-size: 14px;
+        }
+        
+        .button{
+            text-align: center;
+        }
+        
+        .button button{
+            border-radius: 15px;
+            padding: 4px 10px;
+            color: blue;
+            background-color: aqua;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            cursor: pointer;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="card">
+
+        <div class="image">
+            <img  src="https://images.pexels.com/photos/3880179/pexels-photo-3880179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Boat">
+        </div>
+
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+    </div>
+        <h1>Lago di Braies</h1>
+        <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptates quisquam ullam dicta consequatur voluptas minus maxime quasi sequi nisi cumque laborum aliquid autem, vitae obcaecati inventore iste a neque ab. Quis, nemo.</div>
+
+        <div class="button">
+            <button>Read More</button>
+        </div>
+
+        
+
+    </div>
+</body>
+</html>

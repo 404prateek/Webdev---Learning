@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing Units</title>
+
+<!-- 1)px (Pixels): Pixels are an absolute unit of measurement. They provide a fixed size regardless of other factors like text size or screen resolution. For example, 10px means the element is 10 pixels wide or tall.
+
+2)rem (Root em): "rem" stands for "root em." One "rem" is equivalent to the font size of the root element (usually the <html> element). If the root font size is set to 16px, then 1rem is equal to 16px, and 2rem is equal to 32px. It's a relative unit that makes it easy to scale elements based on the root font size.
+
+3)em (Ems): "em" is also a relative unit that's relative to the font size of the parent element. If the parent element's font size is 16px and you set a child element to 2em, it would be 32px (2 times the parent's font size).
+
+4)vh (Viewport Height): "vh" is a relative unit that represents a percentage of the viewport height. For example, 50vh would be 50% of the height of the viewport, so it's responsive to the screen size.
+
+5)vw (Viewport Width): "vw" is similar to "vh" but is relative to the viewport's width. For example, 25vw is 25% of the viewport width.
+
+In summary, "px" is an absolute unit, "rem" and "em" are relative units based on font sizes, and "vh" and "vw" are relative units based on the viewport's dimensions. Each of these units has its use case in web design, allowing for both fixed and responsive layouts.
+ -->
+
+
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-size: 12px;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aquamarine;
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            min-height: 80vh;
+            /* height: 80vh; */
+            margin: 23px auto;
+            font-size: 18px;
+            background-color: aquamarine;
+        }
+        .container p{
+            font-size: 2em;
+        }
+        .mycont{
+            box-sizing: border-box;
+            border: 2px solid black;
+            margin: 23px auto;
+            color: rgb(21, 21, 18);
+            font-size: 22px;
+            /* width: 100vmin; */
+            width: 80vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">This is a box</div>
+
+    <div class="container">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ut. Blanditiis, numquam aut reprehenderit rem nihil praesentium at minima magnam enim quia nisi laboriosam iste cupiditate velit commodi voluptate laborum labore temporibus ducimus harum aspernatur? Ab exercitationem, veritatis quis numquam minus tempore cum voluptates debitis.</p> 
+    </div>
+
+    <div class="mycont">I am another container</div>
+</body>
+</html>

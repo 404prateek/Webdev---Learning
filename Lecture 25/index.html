@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transforms</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 70px;
+            height: 70px;
+            background: beige;
+            border: 2px solid black;
+            /* transform: rotate(0.25turn); */
+            /* transform: rotateX(40deg); */
+            /* transform: scaleY(1.6); */
+            /* transform: scale(2); */
+            /* transform: skew(34deg); */
+            /* transform: skewY(34deg);        Not possible in Z axis */
+            /* transform: translateY(100%) skew(12deg) translateX(45%); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container{
+            width: 100vw;
+            height: 80vh;
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box</div>
+    </div>
+</body>
+</html>
